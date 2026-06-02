@@ -1,0 +1,234 @@
+column,group,modelling_role,data_type,description,how_to_use,unique_values,pct_missing
+Year,Identity,KEY,Decimal,Survey year 2020-2025,Time axis for forecasting,6,0.0
+standard_job,Identity,KEY,Text,Standard job category (20 roles),Primary grouping key / prediction target for role analysis,20,0.0
+DevType,Other,FEATURE,Text,DevType,General feature,25720,0.0
+Age,Other,FEATURE,Text,Age,General feature,9,0.0
+Country,Demographics,FEATURE/CONTEXT,Text,Country,Geographic segmentation,195,0.0
+EdLevel,Demographics,FEATURE,Text,Education level (ordinal),Predictor; segment analysis,10,0.0
+Employment,Other,FEATURE,Text,Employment,General feature,7,0.0
+OrgSize,Other,FEATURE,Text,OrgSize,General feature,10,0.0
+RemoteWork,Other,FEATURE,Text,RemoteWork,General feature,4,0.0
+ExperienceYears,Demographics,FEATURE,Decimal,Years professional experience,Predictor of salary & seniority,74,0.0
+ConvertedCompYearly,Identity,TARGET,Decimal,Annual salary USD,Target for salary prediction model,31222,0.0
+AISelect,Other,FEATURE,Text,AISelect,General feature,9,0.0
+AISelect_Flag,AI Adoption,FEATURE/TARGET,Decimal,1=uses AI tools,AI adoption target or predictor,2,0.0
+AITrust,Other,FEATURE,Text,AITrust,General feature,8,0.0
+AITrust_Score,AI Adoption,FEATURE,Decimal,AI trust 1-5,Sentiment feature,6,0.0
+AI_benefit_productivity,AI Adoption,FEATURE,Decimal,1=cited productivity benefit,AI-attitude feature,2,0.0
+AI_benefit_efficiency,AI Adoption,FEATURE,Decimal,1=cited efficiency benefit,AI-attitude feature,2,0.0
+AI_benefit_learning,AI Adoption,FEATURE,Decimal,1=cited learning benefit,AI-attitude feature,2,0.0
+AI_benefit_accuracy,AI Adoption,FEATURE,Decimal,1=cited accuracy benefit,AI-attitude feature,2,0.0
+AI_benefit_collaboration,AI Adoption,FEATURE,Decimal,1=cited collaboration benefit,AI-attitude feature,2,0.0
+IsProfessionalDev,Other,FEATURE,Decimal,IsProfessionalDev,General feature,2,0.0
+EdLevel_ordinal,Demographics,FEATURE,Decimal,Numeric education rank,Model-ready education feature,8,0.0
+lang_javascript,Skill Flags,FEATURE,Decimal,Uses javascript language,Skill predictor for salary/role,2,0.0
+lang_html_css,Skill Flags,FEATURE,Decimal,Uses html_css language,Skill predictor for salary/role,2,0.0
+lang_sql,Skill Flags,FEATURE,Decimal,Uses sql language,Skill predictor for salary/role,2,0.0
+lang_python,Skill Flags,FEATURE,Decimal,Uses python language,Skill predictor for salary/role,2,0.0
+lang_typescript,Skill Flags,FEATURE,Decimal,Uses typescript language,Skill predictor for salary/role,2,0.0
+lang_java,Skill Flags,FEATURE,Decimal,Uses java language,Skill predictor for salary/role,2,0.0
+lang_c,Skill Flags,FEATURE,Decimal,Uses c language,Skill predictor for salary/role,2,0.0
+lang_php,Skill Flags,FEATURE,Decimal,Uses php language,Skill predictor for salary/role,2,0.0
+lang_bash_shell_all_shells,Skill Flags,FEATURE,Decimal,Uses bash_shell_all_shells language,Skill predictor for salary/role,2,0.0
+lang_go,Skill Flags,FEATURE,Decimal,Uses go language,Skill predictor for salary/role,2,0.0
+lang_powershell,Skill Flags,FEATURE,Decimal,Uses powershell language,Skill predictor for salary/role,2,0.0
+lang_bash_shell,Skill Flags,FEATURE,Decimal,Uses bash_shell language,Skill predictor for salary/role,2,0.0
+lang_rust,Skill Flags,FEATURE,Decimal,Uses rust language,Skill predictor for salary/role,2,0.0
+lang_kotlin,Skill Flags,FEATURE,Decimal,Uses kotlin language,Skill predictor for salary/role,2,0.0
+lang_ruby,Skill Flags,FEATURE,Decimal,Uses ruby language,Skill predictor for salary/role,2,0.0
+lang_node_js,Skill Flags,FEATURE,Decimal,Uses node_js language,Skill predictor for salary/role,2,0.0
+lang_dart,Skill Flags,FEATURE,Decimal,Uses dart language,Skill predictor for salary/role,2,0.0
+lang_swift,Skill Flags,FEATURE,Decimal,Uses swift language,Skill predictor for salary/role,2,0.0
+lang_assembly,Skill Flags,FEATURE,Decimal,Uses assembly language,Skill predictor for salary/role,2,0.0
+lang_bash_shell_powershell,Skill Flags,FEATURE,Decimal,Uses bash_shell_powershell language,Skill predictor for salary/role,2,0.0
+lang_r,Skill Flags,FEATURE,Decimal,Uses r language,Skill predictor for salary/role,2,0.0
+lang_vba,Skill Flags,FEATURE,Decimal,Uses vba language,Skill predictor for salary/role,2,0.0
+lang_lua,Skill Flags,FEATURE,Decimal,Uses lua language,Skill predictor for salary/role,2,0.0
+lang_groovy,Skill Flags,FEATURE,Decimal,Uses groovy language,Skill predictor for salary/role,2,0.0
+lang_scala,Skill Flags,FEATURE,Decimal,Uses scala language,Skill predictor for salary/role,2,0.0
+lang_perl,Skill Flags,FEATURE,Decimal,Uses perl language,Skill predictor for salary/role,2,0.0
+lang_objective_c,Skill Flags,FEATURE,Decimal,Uses objective_c language,Skill predictor for salary/role,2,0.0
+lang_matlab,Skill Flags,FEATURE,Decimal,Uses matlab language,Skill predictor for salary/role,2,0.0
+db_postgresql,Skill Flags,FEATURE,Decimal,Uses postgresql database,Skill predictor,2,0.0
+db_mysql,Skill Flags,FEATURE,Decimal,Uses mysql database,Skill predictor,2,0.0
+db_microsoft_sql_server,Skill Flags,FEATURE,Decimal,Uses microsoft_sql_server database,Skill predictor,2,0.0
+db_sqlite,Skill Flags,FEATURE,Decimal,Uses sqlite database,Skill predictor,2,0.0
+db_mongodb,Skill Flags,FEATURE,Decimal,Uses mongodb database,Skill predictor,2,0.0
+db_redis,Skill Flags,FEATURE,Decimal,Uses redis database,Skill predictor,2,0.0
+db_mariadb,Skill Flags,FEATURE,Decimal,Uses mariadb database,Skill predictor,2,0.0
+db_elasticsearch,Skill Flags,FEATURE,Decimal,Uses elasticsearch database,Skill predictor,2,0.0
+db_oracle,Skill Flags,FEATURE,Decimal,Uses oracle database,Skill predictor,2,0.0
+db_firebase,Skill Flags,FEATURE,Decimal,Uses firebase database,Skill predictor,2,0.0
+db_dynamodb,Skill Flags,FEATURE,Decimal,Uses dynamodb database,Skill predictor,2,0.0
+db_firebase_realtime_databas,Skill Flags,FEATURE,Decimal,Uses firebase_realtime_databas database,Skill predictor,2,0.0
+db_cloud_firestore,Skill Flags,FEATURE,Decimal,Uses cloud_firestore database,Skill predictor,2,0.0
+db_cassandra,Skill Flags,FEATURE,Decimal,Uses cassandra database,Skill predictor,2,0.0
+db_bigquery,Skill Flags,FEATURE,Decimal,Uses bigquery database,Skill predictor,2,0.0
+db_ibm_db2,Skill Flags,FEATURE,Decimal,Uses ibm_db2 database,Skill predictor,2,0.0
+db_microsoft_access,Skill Flags,FEATURE,Decimal,Uses microsoft_access database,Skill predictor,2,0.0
+db_h2,Skill Flags,FEATURE,Decimal,Uses h2 database,Skill predictor,2,0.0
+db_cosmos_db,Skill Flags,FEATURE,Decimal,Uses cosmos_db database,Skill predictor,2,0.0
+db_supabase,Skill Flags,FEATURE,Decimal,Uses supabase database,Skill predictor,2,0.0
+db_influxdb,Skill Flags,FEATURE,Decimal,Uses influxdb database,Skill predictor,2,0.0
+db_snowflake,Skill Flags,FEATURE,Decimal,Uses snowflake database,Skill predictor,2,0.0
+db_couchbase,Skill Flags,FEATURE,Decimal,Uses couchbase database,Skill predictor,2,0.0
+db_neo4j,Skill Flags,FEATURE,Decimal,Uses neo4j database,Skill predictor,2,0.0
+db_clickhouse,Skill Flags,FEATURE,Decimal,Uses clickhouse database,Skill predictor,2,0.0
+db_duckdb,Skill Flags,FEATURE,Decimal,Uses duckdb database,Skill predictor,2,0.0
+db_solr,Skill Flags,FEATURE,Decimal,Uses solr database,Skill predictor,2,0.0
+db_databricks_sql,Skill Flags,FEATURE,Decimal,Uses databricks_sql database,Skill predictor,2,0.0
+db_firebird,Skill Flags,FEATURE,Decimal,Uses firebird database,Skill predictor,2,0.0
+plat_microsoft_azure,Skill Flags,FEATURE,Decimal,Uses microsoft_azure platform,Skill predictor,2,0.0
+plat_amazon_web_services_aws,Skill Flags,FEATURE,Decimal,Uses amazon_web_services_aws platform,Skill predictor,2,0.0
+plat_aws,Skill Flags,FEATURE,Decimal,Uses aws platform,Skill predictor,2,0.0
+plat_google_cloud,Skill Flags,FEATURE,Decimal,Uses google_cloud platform,Skill predictor,2,0.0
+plat_heroku,Skill Flags,FEATURE,Decimal,Uses heroku platform,Skill predictor,2,0.0
+plat_docker,Skill Flags,FEATURE,Decimal,Uses docker platform,Skill predictor,2,0.0
+plat_linux,Skill Flags,FEATURE,Decimal,Uses linux platform,Skill predictor,2,0.0
+plat_firebase,Skill Flags,FEATURE,Decimal,Uses firebase platform,Skill predictor,2,0.0
+plat_windows,Skill Flags,FEATURE,Decimal,Uses windows platform,Skill predictor,2,0.0
+plat_cloudflare,Skill Flags,FEATURE,Decimal,Uses cloudflare platform,Skill predictor,2,0.0
+plat_google_cloud_platform,Skill Flags,FEATURE,Decimal,Uses google_cloud_platform platform,Skill predictor,2,0.0
+plat_digital_ocean,Skill Flags,FEATURE,Decimal,Uses digital_ocean platform,Skill predictor,2,0.0
+plat_digitalocean,Skill Flags,FEATURE,Decimal,Uses digitalocean platform,Skill predictor,2,0.0
+plat_vercel,Skill Flags,FEATURE,Decimal,Uses vercel platform,Skill predictor,2,0.0
+plat_npm,Skill Flags,FEATURE,Decimal,Uses npm platform,Skill predictor,2,0.0
+plat_kubernetes,Skill Flags,FEATURE,Decimal,Uses kubernetes platform,Skill predictor,2,0.0
+plat_vmware,Skill Flags,FEATURE,Decimal,Uses vmware platform,Skill predictor,2,0.0
+plat_macos,Skill Flags,FEATURE,Decimal,Uses macos platform,Skill predictor,2,0.0
+plat_android,Skill Flags,FEATURE,Decimal,Uses android platform,Skill predictor,2,0.0
+plat_pip,Skill Flags,FEATURE,Decimal,Uses pip platform,Skill predictor,2,0.0
+plat_netlify,Skill Flags,FEATURE,Decimal,Uses netlify platform,Skill predictor,2,0.0
+plat_managed_hosting,Skill Flags,FEATURE,Decimal,Uses managed_hosting platform,Skill predictor,2,0.0
+plat_homebrew,Skill Flags,FEATURE,Decimal,Uses homebrew platform,Skill predictor,2,0.0
+plat_wordpress,Skill Flags,FEATURE,Decimal,Uses wordpress platform,Skill predictor,2,0.0
+plat_vite,Skill Flags,FEATURE,Decimal,Uses vite platform,Skill predictor,2,0.0
+plat_raspberry_pi,Skill Flags,FEATURE,Decimal,Uses raspberry_pi platform,Skill predictor,2,0.0
+plat_make,Skill Flags,FEATURE,Decimal,Uses make platform,Skill predictor,2,0.0
+plat_ios,Skill Flags,FEATURE,Decimal,Uses ios platform,Skill predictor,2,0.0
+plat_ovh,Skill Flags,FEATURE,Decimal,Uses ovh platform,Skill predictor,2,0.0
+plat_yarn,Skill Flags,FEATURE,Decimal,Uses yarn platform,Skill predictor,2,0.0
+web_react_js,Skill Flags,FEATURE,Decimal,Uses react_js web framework,Skill predictor,2,0.0
+web_jquery,Skill Flags,FEATURE,Decimal,Uses jquery web framework,Skill predictor,2,0.0
+web_node_js,Skill Flags,FEATURE,Decimal,Uses node_js web framework,Skill predictor,2,0.0
+web_angular,Skill Flags,FEATURE,Decimal,Uses angular web framework,Skill predictor,2,0.0
+web_react,Skill Flags,FEATURE,Decimal,Uses react web framework,Skill predictor,2,0.0
+web_express,Skill Flags,FEATURE,Decimal,Uses express web framework,Skill predictor,2,0.0
+web_flask,Skill Flags,FEATURE,Decimal,Uses flask web framework,Skill predictor,2,0.0
+web_vue_js,Skill Flags,FEATURE,Decimal,Uses vue_js web framework,Skill predictor,2,0.0
+web_asp_net,Skill Flags,FEATURE,Decimal,Uses asp_net web framework,Skill predictor,2,0.0
+web_django,Skill Flags,FEATURE,Decimal,Uses django web framework,Skill predictor,2,0.0
+web_asp_net_core,Skill Flags,FEATURE,Decimal,Uses asp_net_core web framework,Skill predictor,2,0.0
+web_next_js,Skill Flags,FEATURE,Decimal,Uses next_js web framework,Skill predictor,2,0.0
+web_laravel,Skill Flags,FEATURE,Decimal,Uses laravel web framework,Skill predictor,2,0.0
+web_fastapi,Skill Flags,FEATURE,Decimal,Uses fastapi web framework,Skill predictor,2,0.0
+web_wordpress,Skill Flags,FEATURE,Decimal,Uses wordpress web framework,Skill predictor,2,0.0
+web_spring_boot,Skill Flags,FEATURE,Decimal,Uses spring_boot web framework,Skill predictor,2,0.0
+web_angular_js,Skill Flags,FEATURE,Decimal,Uses angular_js web framework,Skill predictor,2,0.0
+web_ruby_on_rails,Skill Flags,FEATURE,Decimal,Uses ruby_on_rails web framework,Skill predictor,2,0.0
+web_spring,Skill Flags,FEATURE,Decimal,Uses spring web framework,Skill predictor,2,0.0
+web_svelte,Skill Flags,FEATURE,Decimal,Uses svelte web framework,Skill predictor,2,0.0
+web_symfony,Skill Flags,FEATURE,Decimal,Uses symfony web framework,Skill predictor,2,0.0
+web_angularjs,Skill Flags,FEATURE,Decimal,Uses angularjs web framework,Skill predictor,2,0.0
+web_blazor,Skill Flags,FEATURE,Decimal,Uses blazor web framework,Skill predictor,2,0.0
+web_gatsby,Skill Flags,FEATURE,Decimal,Uses gatsby web framework,Skill predictor,2,0.0
+web_nestjs,Skill Flags,FEATURE,Decimal,Uses nestjs web framework,Skill predictor,2,0.0
+web_nuxt_js,Skill Flags,FEATURE,Decimal,Uses nuxt_js web framework,Skill predictor,2,0.0
+web_drupal,Skill Flags,FEATURE,Decimal,Uses drupal web framework,Skill predictor,2,0.0
+web_phoenix,Skill Flags,FEATURE,Decimal,Uses phoenix web framework,Skill predictor,2,0.0
+web_deno,Skill Flags,FEATURE,Decimal,Uses deno web framework,Skill predictor,2,0.0
+avg_ai_exposure,AI Exposure,TARGET/FEATURE,Decimal,avg ai exposure,AI exposure target or feature,10,0.0
+max_ai_exposure,AI Exposure,TARGET/FEATURE,Decimal,max ai exposure,AI exposure target or feature,10,0.0
+min_ai_exposure,AI Exposure,TARGET/FEATURE,Decimal,min ai exposure,AI exposure target or feature,10,0.0
+n_occ_mapped,AI Exposure,TARGET/FEATURE,Decimal,n occ mapped,AI exposure target or feature,3,0.0
+exposure_band,AI Exposure,TARGET/FEATURE,Text,exposure band,AI exposure target or feature,4,0.0
+exposure_percentile,AI Exposure,TARGET/FEATURE,Decimal,exposure percentile,AI exposure target or feature,10,0.0
+jd_sample_size,Other,FEATURE,Decimal,jd sample size,General feature,9,0.0
+jd_python_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring pytho,Employer demand feature,10,0.0
+jd_python_diff_score,Employer Demand,FEATURE,Decimal,python differentiation,Skill distinctiveness feature,8,0.0
+jd_sql_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring sq,Employer demand feature,8,0.0
+jd_sql_diff_score,Employer Demand,FEATURE,Decimal,sql differentiation,Skill distinctiveness feature,9,0.0
+jd_aws_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring aw,Employer demand feature,8,0.0
+jd_aws_diff_score,Employer Demand,FEATURE,Decimal,aws differentiation,Skill distinctiveness feature,9,0.0
+jd_azure_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring azur,Employer demand feature,8,0.0
+jd_azure_diff_score,Employer Demand,FEATURE,Decimal,azure differentiation,Skill distinctiveness feature,9,0.0
+jd_google_cloud_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring google_clou,Employer demand feature,8,0.0
+jd_google_cloud_diff_score,Employer Demand,FEATURE,Decimal,google_cloud differentiation,Skill distinctiveness feature,8,0.0
+jd_spark_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring spar,Employer demand feature,7,0.0
+jd_spark_diff_score,Employer Demand,FEATURE,Decimal,spark differentiation,Skill distinctiveness feature,9,0.0
+jd_machine_learning_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring machine_learnin,Employer demand feature,8,0.0
+jd_machine_learning_diff_score,Employer Demand,FEATURE,Decimal,machine_learning differentiation,Skill distinctiveness feature,8,0.0
+jd_docker_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring docke,Employer demand feature,6,0.0
+jd_docker_diff_score,Employer Demand,FEATURE,Decimal,docker differentiation,Skill distinctiveness feature,8,0.0
+jd_kubernetes_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring kubernete,Employer demand feature,6,0.0
+jd_kubernetes_diff_score,Employer Demand,FEATURE,Decimal,kubernetes differentiation,Skill distinctiveness feature,8,0.0
+jd_tableau_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring tablea,Employer demand feature,7,0.0
+jd_tableau_diff_score,Employer Demand,FEATURE,Decimal,tableau differentiation,Skill distinctiveness feature,9,0.0
+jd_power_bi_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring power_b,Employer demand feature,6,0.0
+jd_power_bi_diff_score,Employer Demand,FEATURE,Decimal,power_bi differentiation,Skill distinctiveness feature,7,0.0
+jd_tensorflow_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring tensorflo,Employer demand feature,7,0.0
+jd_tensorflow_diff_score,Employer Demand,FEATURE,Decimal,tensorflow differentiation,Skill distinctiveness feature,9,0.0
+jd_pytorch_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring pytorc,Employer demand feature,7,0.0
+jd_pytorch_diff_score,Employer Demand,FEATURE,Decimal,pytorch differentiation,Skill distinctiveness feature,9,0.0
+jd_llm_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring ll,Employer demand feature,7,0.0
+jd_llm_diff_score,Employer Demand,FEATURE,Decimal,llm differentiation,Skill distinctiveness feature,7,0.0
+jd_generative_ai_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring generative_a,Employer demand feature,6,0.0
+jd_generative_ai_diff_score,Employer Demand,FEATURE,Decimal,generative_ai differentiation,Skill distinctiveness feature,7,0.0
+jd_communication_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring communicatio,Employer demand feature,10,0.0
+jd_communication_diff_score,Employer Demand,FEATURE,Decimal,communication differentiation,Skill distinctiveness feature,10,0.0
+jd_leadership_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring leadershi,Employer demand feature,8,0.0
+jd_leadership_diff_score,Employer Demand,FEATURE,Decimal,leadership differentiation,Skill distinctiveness feature,8,0.0
+jd_agile_demand_pct,Employer Demand,FEATURE,Decimal,% JDs requiring agil,Employer demand feature,8,0.0
+jd_agile_diff_score,Employer Demand,FEATURE,Decimal,agile differentiation,Skill distinctiveness feature,7,0.0
+disp_avg_salary,Displacement,TARGET/FEATURE,Decimal,avg salary,Displacement risk target or feature,7,0.0
+disp_risk_score,Displacement,TARGET/FEATURE,Decimal,risk score,Displacement risk target or feature,6,0.0
+disp_automation_risk_code,Displacement,TARGET/FEATURE,Decimal,automation risk code,Displacement risk target or feature,7,0.0
+disp_ai_adoption_code,Displacement,TARGET/FEATURE,Decimal,ai adoption code,Displacement risk target or feature,6,0.0
+disp_job_growth_code,Displacement,TARGET/FEATURE,Decimal,job growth code,Displacement risk target or feature,7,0.0
+disp_remote_friendly_pct,Displacement,TARGET/FEATURE,Decimal,remote friendly pct,Displacement risk target or feature,7,0.0
+disp_risk_agreement_pct,Displacement,TARGET/FEATURE,Decimal,risk agreement pct,Displacement risk target or feature,7,0.0
+disp_high_risk_pct,Displacement,TARGET/FEATURE,Decimal,high risk pct,Displacement risk target or feature,3,0.0
+disp_record_count,Displacement,TARGET/FEATURE,Decimal,record count,Displacement risk target or feature,7,0.0
+disp_ai_adoption_level,Displacement,TARGET/FEATURE,Text,ai adoption level,Displacement risk target or feature,3,0.0
+disp_job_growth,Displacement,TARGET/FEATURE,Text,job growth,Displacement risk target or feature,4,0.0
+disp_risk_band,Displacement,TARGET/FEATURE,Text,risk band,Displacement risk target or feature,3,0.0
+disp_top_industry,Displacement,TARGET/FEATURE,Text,top industry,Displacement risk target or feature,7,0.0
+itr_yoy_posting_growth,IT Role Demand,FEATURE,Decimal,yoy posting growth,Role demand/growth feature (forecast input),9,0.0
+itr_median_salary_2024,IT Role Demand,FEATURE,Decimal,median salary 2024,Role demand/growth feature (forecast input),9,0.0
+itr_10yr_growth,IT Role Demand,FEATURE,Decimal,10yr growth,Role demand/growth feature (forecast input),9,0.0
+itr_automation_risk,IT Role Demand,FEATURE,Decimal,automation risk,Role demand/growth feature (forecast input),9,0.0
+itr_skill_demand_2026,IT Role Demand,FEATURE,Decimal,skill demand 2026,Role demand/growth feature (forecast input),9,0.0
+sec_salary_usd,Sectors Survey,FEATURE,Decimal,salary usd,Survey/risk feature,7,0.0
+sec_displacement_riskscore,Sectors Survey,FEATURE,Decimal,displacement riskscore,Survey/risk feature,6,0.0
+sec_composite_risk_signal,Sectors Survey,FEATURE,Decimal,composite risk signal,Survey/risk feature,6,0.0
+sec_survey_avg_ai_obsolete_worry,Sectors Survey,FEATURE,Decimal,survey avg ai obsolete worry,Survey/risk feature,6,0.0
+sec_survey_avg_upskilling_for_ai,Sectors Survey,FEATURE,Decimal,survey avg upskilling for ai,Survey/risk feature,6,0.0
+sec_risk_band,Sectors Survey,FEATURE,Text,risk band,Survey/risk feature,3,0.0
+sec_ai_adoption,Sectors Survey,FEATURE,Text,ai adoption,Survey/risk feature,3,0.0
+sec_job_growth,Sectors Survey,FEATURE,Text,job growth,Survey/risk feature,4,0.0
+sec_top_industry,Sectors Survey,FEATURE,Text,top industry,Survey/risk feature,7,0.0
+li_posting_count,LinkedIn,FEATURE,Decimal,LinkedIn posting count,Live demand feature,10,0.0
+li_experience_proxy,LinkedIn,FEATURE,Decimal,LinkedIn experience proxy,Live demand feature,5,0.0
+li_avg_skills_mentioned,LinkedIn,FEATURE,Decimal,LinkedIn avg skills mentioned,Live demand feature,8,0.0
+li_n_countries,LinkedIn,FEATURE,Decimal,LinkedIn n countries,Live demand feature,11,0.0
+li_top_industry,LinkedIn,FEATURE,Text,LinkedIn top industry,Live demand feature,3,0.0
+wef_genai_substitution,WEF,CONTEXT/TARGET,Text,WEF genai substitution,Future projection - context or forecast target,2,0.0
+wef_skill_trend,WEF,CONTEXT/TARGET,Text,WEF skill trend,Future projection - context or forecast target,2,0.0
+wef_skill_priority,WEF,CONTEXT/TARGET,Text,WEF skill priority,Future projection - context or forecast target,3,0.0
+wef_human_share_now,WEF,CONTEXT/TARGET,Decimal,WEF human share now,Future projection - context or forecast target,1,0.0
+wef_human_share_2030,WEF,CONTEXT/TARGET,Decimal,WEF human share 2030,Future projection - context or forecast target,1,0.0
+wef_skill_net_increase,WEF,CONTEXT/TARGET,Decimal,WEF skill net increase,Future projection - context or forecast target,1,0.0
+wef_automation_vs_aug,WEF,CONTEXT/TARGET,Text,WEF automation vs aug,Future projection - context or forecast target,3,0.0
+wef_human_task_change,WEF,CONTEXT/TARGET,Decimal,WEF human task change,Future projection - context or forecast target,1,0.0
+ai_domain,AI Domain,FEATURE(cat),Text,Dominant AI specialisation,Role AI-orientation feature,7,0.0
+aiskill_generative_ai,AI-Skill Indicators,FEATURE,Decimal,% postings for generative_ai,AI-skill intensity feature,9,0.0
+aiskill_artificial_intelligence,AI-Skill Indicators,FEATURE,Decimal,% postings for artificial_intelligence,AI-skill intensity feature,6,0.0
+aiskill_machine_learning,AI-Skill Indicators,FEATURE,Decimal,% postings for machine_learning,AI-skill intensity feature,2,0.0
+aiskill_llm,AI-Skill Indicators,FEATURE,Decimal,% postings for llm,AI-skill intensity feature,6,0.0
+aiskill_nlp,AI-Skill Indicators,FEATURE,Decimal,% postings for nlp,AI-skill intensity feature,3,0.0
+aiskill_deep_learning,AI-Skill Indicators,FEATURE,Decimal,% postings for deep_learning,AI-skill intensity feature,2,0.0
+aiskill_computer_vision,AI-Skill Indicators,FEATURE,Decimal,% postings for computer_vision,AI-skill intensity feature,4,0.0
+aiskill_prompt_engineering,AI-Skill Indicators,FEATURE,Decimal,% postings for prompt_engineering,AI-skill intensity feature,5,0.0
+aiskill_transformers,AI-Skill Indicators,FEATURE,Decimal,% postings for transformers,AI-skill intensity feature,3,0.0
+aiskill_ai_literacy,AI-Skill Indicators,FEATURE,Decimal,% postings for ai_literacy,AI-skill intensity feature,3,0.0
+data_source,Meta,FILTER,Text,survey_respondent vs job_level_only,Filter to survey_respondent for respondent analysis,2,0.0
