@@ -1,0 +1,595 @@
+{
+  "0": {
+    "size": 23945,
+    "pct": 68.4,
+    "top_skills": {
+      "aiskill_llm": 0.9997,
+      "aiskill_generative_ai": 0.9996,
+      "aiskill_artificial_intelligence": 0.9995,
+      "lang_javascript": 0.712,
+      "lang_html_css": 0.5991,
+      "web_react": 0.5638,
+      "lang_sql": 0.5018,
+      "plat_microsoft_azure": 0.4816,
+      "lang_typescript": 0.4333,
+      "db_microsoft_sql_server": 0.4083,
+      "liskill_excel": 0.4026,
+      "liskill_aws": 0.3896
+    },
+    "skill_gap_vs_sam": [
+      [
+        "aiskill_llm",
+        0.9997
+      ],
+      [
+        "plat_amazon_web_services_aws",
+        0.3694
+      ],
+      [
+        "aiskill_artificial_intelligence",
+        0.2157
+      ],
+      [
+        "web_react",
+        0.1032
+      ],
+      [
+        "plat_microsoft_azure",
+        0.0885
+      ],
+      [
+        "plat_docker",
+        0.0636
+      ],
+      [
+        "lang_javascript",
+        0.0605
+      ],
+      [
+        "liskill_git",
+        0.0586
+      ],
+      [
+        "db_microsoft_sql_server",
+        0.056
+      ],
+      [
+        "lang_typescript",
+        0.0553
+      ]
+    ],
+    "market_signals": {
+      "wef_skill_trend": 1.0,
+      "wef_skill_priority": 1.0,
+      "wef_automation_vs_aug": 2.0,
+      "itr_yoy_posting_growth": -4.25,
+      "itr_10yr_growth": 1.75,
+      "itr_skill_demand_2026": 6.12,
+      "jd_python_demand_pct": 54.506,
+      "jd_python_diff_score": -11.998,
+      "jd_sql_demand_pct": 61.592,
+      "jd_sql_diff_score": 1.0,
+      "jd_aws_demand_pct": 22.31,
+      "jd_aws_diff_score": -15.398,
+      "jd_azure_demand_pct": 8.911,
+      "jd_azure_diff_score": -18.498,
+      "jd_google_cloud_demand_pct": 3.4,
+      "jd_google_cloud_diff_score": -4.499,
+      "jd_spark_demand_pct": 12.298,
+      "jd_spark_diff_score": -22.597,
+      "jd_machine_learning_demand_pct": 33.896,
+      "jd_machine_learning_diff_score": 1.7,
+      "jd_docker_demand_pct": 3.412,
+      "jd_docker_diff_score": -4.799,
+      "jd_kubernetes_demand_pct": 3.412,
+      "jd_kubernetes_diff_score": -6.199,
+      "jd_tableau_demand_pct": 22.897,
+      "jd_tableau_diff_score": 9.599,
+      "jd_power_bi_demand_pct": 12.298,
+      "jd_power_bi_diff_score": 0.7,
+      "jd_tensorflow_demand_pct": 8.212,
+      "jd_tensorflow_diff_score": -2.4,
+      "jd_pytorch_demand_pct": 8.911,
+      "jd_pytorch_diff_score": -3.1,
+      "jd_llm_demand_pct": 4.099,
+      "jd_llm_diff_score": -2.4,
+      "jd_generative_ai_demand_pct": 3.1,
+      "jd_generative_ai_diff_score": -1.0,
+      "jd_communication_demand_pct": 49.694,
+      "jd_communication_diff_score": 5.799,
+      "jd_leadership_demand_pct": 13.998,
+      "jd_leadership_diff_score": -2.1,
+      "jd_agile_demand_pct": 10.299,
+      "jd_agile_diff_score": -9.599
+    },
+    "context": {
+      "ExperienceYears": 9.119,
+      "EdLevel_ordinal": 4.858,
+      "comp_log10": 4.757,
+      "AITrust_Score": 0.425,
+      "avg_ai_exposure": 0.504,
+      "disp_risk_score": 69.0
+    },
+    "role_distribution": {
+      "Software Engineer": 23942,
+      "Cloud/MLOps Engineer": 3
+    },
+    "top_country": "United States"
+  },
+  "1": {
+    "size": 1037,
+    "pct": 3.0,
+    "top_skills": {
+      "aiskill_generative_ai": 0.9913,
+      "plat_npm": 0.8987,
+      "plat_docker": 0.8766,
+      "lang_javascript": 0.8669,
+      "lang_html_css": 0.8312,
+      "aiskill_artificial_intelligence": 0.8149,
+      "aiskill_llm": 0.811,
+      "lang_typescript": 0.756,
+      "lang_sql": 0.7126,
+      "db_postgresql": 0.6837,
+      "lang_python": 0.6442,
+      "web_react": 0.6403
+    },
+    "skill_gap_vs_sam": [
+      [
+        "plat_docker",
+        0.8766
+      ],
+      [
+        "plat_npm",
+        0.8599
+      ],
+      [
+        "aiskill_llm",
+        0.811
+      ],
+      [
+        "plat_amazon_web_services_aws",
+        0.5371
+      ],
+      [
+        "plat_pip",
+        0.5332
+      ],
+      [
+        "plat_vite",
+        0.4985
+      ],
+      [
+        "plat_homebrew",
+        0.4337
+      ],
+      [
+        "plat_yarn",
+        0.4262
+      ],
+      [
+        "web_node_js",
+        0.3855
+      ],
+      [
+        "plat_kubernetes",
+        0.3819
+      ]
+    ],
+    "market_signals": {
+      "wef_skill_trend": 0.975,
+      "wef_skill_priority": 1.131,
+      "wef_automation_vs_aug": 1.937,
+      "itr_yoy_posting_growth": -3.698,
+      "itr_10yr_growth": -0.666,
+      "itr_skill_demand_2026": 5.868,
+      "jd_python_demand_pct": 61.3,
+      "jd_python_diff_score": -9.53,
+      "jd_sql_demand_pct": 66.702,
+      "jd_sql_diff_score": 0.288,
+      "jd_aws_demand_pct": 19.28,
+      "jd_aws_diff_score": -27.514,
+      "jd_azure_demand_pct": 7.911,
+      "jd_azure_diff_score": -15.505,
+      "jd_google_cloud_demand_pct": 3.034,
+      "jd_google_cloud_diff_score": -3.562,
+      "jd_spark_demand_pct": 10.615,
+      "jd_spark_diff_score": -18.646,
+      "jd_machine_learning_demand_pct": 29.154,
+      "jd_machine_learning_diff_score": 1.733,
+      "jd_docker_demand_pct": 3.035,
+      "jd_docker_diff_score": -3.821,
+      "jd_kubernetes_demand_pct": 3.076,
+      "jd_kubernetes_diff_score": -4.956,
+      "jd_tableau_demand_pct": 19.102,
+      "jd_tableau_diff_score": 7.669,
+      "jd_power_bi_demand_pct": 10.272,
+      "jd_power_bi_diff_score": 0.334,
+      "jd_tensorflow_demand_pct": 7.297,
+      "jd_tensorflow_diff_score": -1.576,
+      "jd_pytorch_demand_pct": 7.874,
+      "jd_pytorch_diff_score": -2.141,
+      "jd_llm_demand_pct": 3.764,
+      "jd_llm_diff_score": -2.049,
+      "jd_generative_ai_demand_pct": 2.822,
+      "jd_generative_ai_diff_score": -0.996,
+      "jd_communication_demand_pct": 42.507,
+      "jd_communication_diff_score": -9.518,
+      "jd_leadership_demand_pct": 11.91,
+      "jd_leadership_diff_score": -1.813,
+      "jd_agile_demand_pct": 8.89,
+      "jd_agile_diff_score": -7.946
+    },
+    "context": {
+      "ExperienceYears": 11.765,
+      "EdLevel_ordinal": 4.787,
+      "comp_log10": 4.804,
+      "AITrust_Score": 2.643,
+      "avg_ai_exposure": 0.471,
+      "disp_risk_score": 68.824
+    },
+    "role_distribution": {
+      "Software Engineer": 836,
+      "UX Designer": 153,
+      "Student": 26,
+      "ML Engineer": 9,
+      "Cloud/DevOps Engineer": 8
+    },
+    "top_country": "United States"
+  },
+  "2": {
+    "size": 7472,
+    "pct": 21.3,
+    "top_skills": {
+      "aiskill_generative_ai": 0.8861,
+      "lang_python": 0.6381,
+      "plat_amazon_web_services_aws": 0.5024,
+      "lang_javascript": 0.502,
+      "db_postgresql": 0.4925,
+      "lang_html_css": 0.457,
+      "lang_sql": 0.4192,
+      "db_mysql": 0.4074,
+      "web_jquery": 0.3901,
+      "lang_bash_shell_all_shells": 0.3856,
+      "liskill_excel": 0.3448,
+      "db_sqlite": 0.3078
+    },
+    "skill_gap_vs_sam": [
+      [
+        "plat_amazon_web_services_aws",
+        0.5024
+      ],
+      [
+        "lang_python",
+        0.1704
+      ],
+      [
+        "web_jquery",
+        0.1247
+      ],
+      [
+        "aiskill_deep_learning",
+        0.1009
+      ],
+      [
+        "plat_docker",
+        0.1009
+      ],
+      [
+        "aiskill_machine_learning",
+        0.1003
+      ],
+      [
+        "aiskill_nlp",
+        0.0716
+      ],
+      [
+        "aiskill_computer_vision",
+        0.0712
+      ],
+      [
+        "lang_bash_shell_all_shells",
+        0.0701
+      ],
+      [
+        "db_postgresql",
+        0.0666
+      ]
+    ],
+    "market_signals": {
+      "wef_skill_trend": 0.832,
+      "wef_skill_priority": 1.547,
+      "wef_automation_vs_aug": 1.552,
+      "itr_yoy_posting_growth": 13.839,
+      "itr_10yr_growth": -4.28,
+      "itr_skill_demand_2026": 5.373,
+      "jd_python_demand_pct": 85.298,
+      "jd_python_diff_score": 4.281,
+      "jd_sql_demand_pct": 78.659,
+      "jd_sql_diff_score": -8.116,
+      "jd_aws_demand_pct": 14.326,
+      "jd_aws_diff_score": -55.226,
+      "jd_azure_demand_pct": 8.698,
+      "jd_azure_diff_score": 0.535,
+      "jd_google_cloud_demand_pct": 3.501,
+      "jd_google_cloud_diff_score": 1.701,
+      "jd_spark_demand_pct": 7.604,
+      "jd_spark_diff_score": -1.539,
+      "jd_machine_learning_demand_pct": 19.647,
+      "jd_machine_learning_diff_score": 10.665,
+      "jd_docker_demand_pct": 3.569,
+      "jd_docker_diff_score": 1.683,
+      "jd_kubernetes_demand_pct": 4.113,
+      "jd_kubernetes_diff_score": 1.862,
+      "jd_tableau_demand_pct": 4.435,
+      "jd_tableau_diff_score": -2.933,
+      "jd_power_bi_demand_pct": 2.725,
+      "jd_power_bi_diff_score": -3.44,
+      "jd_tensorflow_demand_pct": 8.457,
+      "jd_tensorflow_diff_score": 5.905,
+      "jd_pytorch_demand_pct": 8.686,
+      "jd_pytorch_diff_score": 5.908,
+      "jd_llm_demand_pct": 6.147,
+      "jd_llm_diff_score": 4.431,
+      "jd_generative_ai_demand_pct": 4.275,
+      "jd_generative_ai_diff_score": 3.098,
+      "jd_communication_demand_pct": 19.53,
+      "jd_communication_diff_score": -57.532,
+      "jd_leadership_demand_pct": 6.131,
+      "jd_leadership_diff_score": -1.483,
+      "jd_agile_demand_pct": 6.243,
+      "jd_agile_diff_score": -1.116
+    },
+    "context": {
+      "ExperienceYears": 10.091,
+      "EdLevel_ordinal": 4.71,
+      "comp_log10": 4.727,
+      "AITrust_Score": 0.748,
+      "avg_ai_exposure": 0.343,
+      "disp_risk_score": 68.384
+    },
+    "role_distribution": {
+      "UX Designer": 4386,
+      "Student": 1259,
+      "ML Engineer": 961,
+      "Cloud/DevOps Engineer": 786,
+      "Marketing Specialist": 42
+    },
+    "top_country": "United States"
+  },
+  "3": {
+    "size": 1006,
+    "pct": 2.9,
+    "top_skills": {
+      "aiskill_llm": 0.997,
+      "aiskill_computer_vision": 0.996,
+      "aiskill_nlp": 0.996,
+      "aiskill_generative_ai": 0.995,
+      "aiskill_ai_literacy": 0.995,
+      "aiskill_artificial_intelligence": 0.995,
+      "aiskill_transformers": 0.995,
+      "lang_python": 0.8917,
+      "web_flask": 0.6958,
+      "plat_amazon_web_services_aws": 0.6759,
+      "db_postgresql": 0.5934,
+      "lang_sql": 0.5517
+    },
+    "skill_gap_vs_sam": [
+      [
+        "aiskill_llm",
+        0.997
+      ],
+      [
+        "aiskill_ai_literacy",
+        0.9618
+      ],
+      [
+        "aiskill_transformers",
+        0.9617
+      ],
+      [
+        "aiskill_computer_vision",
+        0.9382
+      ],
+      [
+        "aiskill_nlp",
+        0.938
+      ],
+      [
+        "plat_amazon_web_services_aws",
+        0.6759
+      ],
+      [
+        "web_flask",
+        0.5432
+      ],
+      [
+        "lang_python",
+        0.424
+      ],
+      [
+        "liskill_pandas",
+        0.375
+      ],
+      [
+        "liskill_scikit_learn",
+        0.3156
+      ]
+    ],
+    "market_signals": {
+      "wef_skill_trend": 1.0,
+      "wef_skill_priority": 1.0,
+      "wef_automation_vs_aug": 2.0,
+      "itr_yoy_posting_growth": 42.0,
+      "itr_10yr_growth": 36.0,
+      "itr_skill_demand_2026": 8.8,
+      "jd_python_demand_pct": 84.1,
+      "jd_python_diff_score": 47.7,
+      "jd_sql_demand_pct": 36.4,
+      "jd_sql_diff_score": -36.4,
+      "jd_aws_demand_pct": 18.2,
+      "jd_aws_diff_score": -13.6,
+      "jd_azure_demand_pct": 9.1,
+      "jd_azure_diff_score": -20.5,
+      "jd_google_cloud_demand_pct": 9.1,
+      "jd_google_cloud_diff_score": 2.3,
+      "jd_spark_demand_pct": 38.6,
+      "jd_spark_diff_score": 13.6,
+      "jd_machine_learning_demand_pct": 61.4,
+      "jd_machine_learning_diff_score": 54.5,
+      "jd_docker_demand_pct": 13.6,
+      "jd_docker_diff_score": 13.6,
+      "jd_kubernetes_demand_pct": 13.6,
+      "jd_kubernetes_diff_score": 13.6,
+      "jd_tableau_demand_pct": 9.1,
+      "jd_tableau_diff_score": -4.5,
+      "jd_power_bi_demand_pct": 2.3,
+      "jd_power_bi_diff_score": -20.5,
+      "jd_tensorflow_demand_pct": 20.5,
+      "jd_tensorflow_diff_score": 20.5,
+      "jd_pytorch_demand_pct": 29.5,
+      "jd_pytorch_diff_score": 29.5,
+      "jd_llm_demand_pct": 9.1,
+      "jd_llm_diff_score": 9.1,
+      "jd_generative_ai_demand_pct": 9.1,
+      "jd_generative_ai_diff_score": 9.1,
+      "jd_communication_demand_pct": 45.5,
+      "jd_communication_diff_score": -9.1,
+      "jd_leadership_demand_pct": 11.4,
+      "jd_leadership_diff_score": -6.8,
+      "jd_agile_demand_pct": 13.6,
+      "jd_agile_diff_score": -13.6
+    },
+    "context": {
+      "ExperienceYears": 8.322,
+      "EdLevel_ordinal": 5.784,
+      "comp_log10": 4.816,
+      "AITrust_Score": 0.323,
+      "avg_ai_exposure": 0.46,
+      "disp_risk_score": 71.0
+    },
+    "role_distribution": {
+      "Data Scientist": 1006
+    },
+    "top_country": "United States"
+  },
+  "4": {
+    "size": 1540,
+    "pct": 4.4,
+    "top_skills": {
+      "aiskill_generative_ai": 0.9948,
+      "lang_python": 0.7104,
+      "lang_sql": 0.6961,
+      "aiskill_llm": 0.5727,
+      "web_flask": 0.5506,
+      "plat_amazon_web_services_aws": 0.5182,
+      "liskill_excel": 0.5109,
+      "db_postgresql": 0.474,
+      "lang_javascript": 0.4422,
+      "db_microsoft_sql_server": 0.4162,
+      "lang_html_css": 0.3851,
+      "db_mysql": 0.3708
+    },
+    "skill_gap_vs_sam": [
+      [
+        "aiskill_llm",
+        0.5727
+      ],
+      [
+        "plat_amazon_web_services_aws",
+        0.5182
+      ],
+      [
+        "web_flask",
+        0.398
+      ],
+      [
+        "liskill_power_bi",
+        0.2797
+      ],
+      [
+        "liskill_spark",
+        0.2463
+      ],
+      [
+        "lang_python",
+        0.2427
+      ],
+      [
+        "liskill_tableau",
+        0.2122
+      ],
+      [
+        "lang_sql",
+        0.1966
+      ],
+      [
+        "liskill_etl",
+        0.1747
+      ],
+      [
+        "plat_windows",
+        0.1636
+      ]
+    ],
+    "market_signals": {
+      "wef_skill_trend": 0.639,
+      "wef_skill_priority": 0.639,
+      "wef_automation_vs_aug": 0.64,
+      "itr_yoy_posting_growth": 65.308,
+      "itr_10yr_growth": 14.314,
+      "itr_skill_demand_2026": 6.764,
+      "jd_python_demand_pct": 47.714,
+      "jd_python_diff_score": -13.512,
+      "jd_sql_demand_pct": 63.377,
+      "jd_sql_diff_score": 9.661,
+      "jd_aws_demand_pct": 30.594,
+      "jd_aws_diff_score": -7.116,
+      "jd_azure_demand_pct": 23.432,
+      "jd_azure_diff_score": -4.139,
+      "jd_google_cloud_demand_pct": 5.647,
+      "jd_google_cloud_diff_score": -1.474,
+      "jd_spark_demand_pct": 24.737,
+      "jd_spark_diff_score": 2.524,
+      "jd_machine_learning_demand_pct": 12.202,
+      "jd_machine_learning_diff_score": -35.387,
+      "jd_docker_demand_pct": 2.547,
+      "jd_docker_diff_score": -2.458,
+      "jd_kubernetes_demand_pct": 4.084,
+      "jd_kubernetes_diff_score": -1.112,
+      "jd_tableau_demand_pct": 14.684,
+      "jd_tableau_diff_score": -1.085,
+      "jd_power_bi_demand_pct": 15.972,
+      "jd_power_bi_diff_score": 7.802,
+      "jd_tensorflow_demand_pct": 0.938,
+      "jd_tensorflow_diff_score": -10.403,
+      "jd_pytorch_demand_pct": 0.938,
+      "jd_pytorch_diff_score": -11.317,
+      "jd_llm_demand_pct": 1.514,
+      "jd_llm_diff_score": -13.696,
+      "jd_generative_ai_demand_pct": 0.938,
+      "jd_generative_ai_diff_score": -12.937,
+      "jd_communication_demand_pct": 47.803,
+      "jd_communication_diff_score": 2.145,
+      "jd_leadership_demand_pct": 11.794,
+      "jd_leadership_diff_score": 1.417,
+      "jd_agile_demand_pct": 18.484,
+      "jd_agile_diff_score": 2.022
+    },
+    "context": {
+      "ExperienceYears": 9.368,
+      "EdLevel_ordinal": 5.085,
+      "comp_log10": 4.807,
+      "AITrust_Score": 0.404,
+      "avg_ai_exposure": 0.31,
+      "disp_risk_score": 68.053
+    },
+    "role_distribution": {
+      "Data Engineer": 740,
+      "Data Analyst": 556,
+      "Product Manager": 142,
+      "Cybersecurity Analyst": 100,
+      "Business Analyst": 2
+    },
+    "top_country": "United States"
+  }
+}
