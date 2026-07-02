@@ -1,0 +1,71 @@
+{
+  "Sam - Software Engineer (current)": {
+    "top_pathway": "Software Engineering Pathway",
+    "proba_distribution": {
+      "AI-Augmented Design & Engineering Pathway": 0.4,
+      "Data Engineering & Analytics Pathway": 0.02,
+      "Data Science Pathway": 0.0,
+      "Emerging/Transitional Tech Pathway": 0.0001,
+      "Software Engineering Pathway": 0.5799
+    },
+    "avg_neighbor_similarity": 0.5256,
+    "neighbor_dominant_roles": {
+      "Software Engineer": 29,
+      "UX Designer": 13,
+      "Student": 4,
+      "Cloud/DevOps Engineer": 2,
+      "AI / ML Engineer": 1
+    }
+  },
+  "Priya - Data Analyst upskilling to AI/ML": {
+    "top_pathway": "Data Engineering & Analytics Pathway",
+    "proba_distribution": {
+      "AI-Augmented Design & Engineering Pathway": 0.0001,
+      "Data Engineering & Analytics Pathway": 0.9999,
+      "Data Science Pathway": 0.0,
+      "Emerging/Transitional Tech Pathway": 0.0,
+      "Software Engineering Pathway": 0.0
+    },
+    "avg_neighbor_similarity": 0.4109,
+    "neighbor_dominant_roles": {
+      "Data Analyst": 49,
+      "Business Analyst": 1
+    }
+  },
+  "Alex - DevOps Engineer exploring MLOps": {
+    "top_pathway": "AI-Augmented Design & Engineering Pathway",
+    "proba_distribution": {
+      "AI-Augmented Design & Engineering Pathway": 0.4799,
+      "Data Engineering & Analytics Pathway": 0.06,
+      "Data Science Pathway": 0.0,
+      "Emerging/Transitional Tech Pathway": 0.0204,
+      "Software Engineering Pathway": 0.4397
+    },
+    "avg_neighbor_similarity": 0.502,
+    "neighbor_dominant_roles": {
+      "Software Engineer": 23,
+      "UX Designer": 19,
+      "Cloud/DevOps Engineer": 5,
+      "Data Engineer": 2,
+      "Data Analyst": 1
+    }
+  },
+  "Maria - Product Manager exploring Data roles": {
+    "top_pathway": "Data Engineering & Analytics Pathway",
+    "proba_distribution": {
+      "AI-Augmented Design & Engineering Pathway": 0.079,
+      "Data Engineering & Analytics Pathway": 0.9209,
+      "Data Science Pathway": 0.0,
+      "Emerging/Transitional Tech Pathway": 0.0,
+      "Software Engineering Pathway": 0.0
+    },
+    "avg_neighbor_similarity": 0.1656,
+    "neighbor_dominant_roles": {
+      "Data Engineer": 27,
+      "Cybersecurity Analyst": 12,
+      "Data Analyst": 5,
+      "AI Leadership": 2,
+      "Business Analyst": 2
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "cross_sample_accuracy": 0.7798857142857143,
+  "cross_sample_macro_f1": 0.7215499269942895,
+  "note": "cross_sample metrics are the only reported accuracy figures for this model; within-sample cross-validation was tested during development and discarded as unreliable due to circularity between features and labels"
+}

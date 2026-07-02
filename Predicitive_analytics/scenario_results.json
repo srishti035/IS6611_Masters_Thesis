@@ -1,0 +1,110 @@
+{
+  "Sam - Software Engineer (current)": {
+    "pathway": "Software Engineering Pathway",
+    "distance": 4.1816,
+    "role_ranking": [
+      {
+        "role_name": "Cloud/MLOps Engineer",
+        "population_n": 28,
+        "opportunity_score": 40.0,
+        "growth_trend": "\u2192",
+        "itr_yoy_posting_growth": -4.25
+      },
+      {
+        "role_name": "Software Engineer",
+        "population_n": 254080,
+        "opportunity_score": 40.0,
+        "growth_trend": "\u2192",
+        "itr_yoy_posting_growth": -4.25
+      }
+    ],
+    "winner": {
+      "role_name": "Cloud/MLOps Engineer",
+      "population_n": 28,
+      "opportunity_score": 40.0,
+      "growth_trend": "\u2192",
+      "itr_yoy_posting_growth": -4.25
+    }
+  },
+  "Priya - Data Analyst upskilling to AI/ML": {
+    "pathway": "Software Engineering Pathway",
+    "distance": 4.1041,
+    "role_ranking": [
+      {
+        "role_name": "Cloud/MLOps Engineer",
+        "population_n": 28,
+        "opportunity_score": 40.0,
+        "growth_trend": "\u2192",
+        "itr_yoy_posting_growth": -4.25
+      },
+      {
+        "role_name": "Software Engineer",
+        "population_n": 254080,
+        "opportunity_score": 40.0,
+        "growth_trend": "\u2192",
+        "itr_yoy_posting_growth": -4.25
+      }
+    ],
+    "winner": {
+      "role_name": "Cloud/MLOps Engineer",
+      "population_n": 28,
+      "opportunity_score": 40.0,
+      "growth_trend": "\u2192",
+      "itr_yoy_posting_growth": -4.25
+    }
+  },
+  "Alex - DevOps Engineer exploring MLOps": {
+    "pathway": "Software Engineering Pathway",
+    "distance": 3.4883,
+    "role_ranking": [
+      {
+        "role_name": "Cloud/MLOps Engineer",
+        "population_n": 28,
+        "opportunity_score": 40.0,
+        "growth_trend": "\u2192",
+        "itr_yoy_posting_growth": -4.25
+      },
+      {
+        "role_name": "Software Engineer",
+        "population_n": 254080,
+        "opportunity_score": 40.0,
+        "growth_trend": "\u2192",
+        "itr_yoy_posting_growth": -4.25
+      }
+    ],
+    "winner": {
+      "role_name": "Cloud/MLOps Engineer",
+      "population_n": 28,
+      "opportunity_score": 40.0,
+      "growth_trend": "\u2192",
+      "itr_yoy_posting_growth": -4.25
+    }
+  },
+  "Maria - Product Manager exploring Data roles": {
+    "pathway": "Software Engineering Pathway",
+    "distance": 3.6298,
+    "role_ranking": [
+      {
+        "role_name": "Cloud/MLOps Engineer",
+        "population_n": 28,
+        "opportunity_score": 40.0,
+        "growth_trend": "\u2192",
+        "itr_yoy_posting_growth": -4.25
+      },
+      {
+        "role_name": "Software Engineer",
+        "population_n": 254080,
+        "opportunity_score": 40.0,
+        "growth_trend": "\u2192",
+        "itr_yoy_posting_growth": -4.25
+      }
+    ],
+    "winner": {
+      "role_name": "Cloud/MLOps Engineer",
+      "population_n": 28,
+      "opportunity_score": 40.0,
+      "growth_trend": "\u2192",
+      "itr_yoy_posting_growth": -4.25
+    }
+  }
+}

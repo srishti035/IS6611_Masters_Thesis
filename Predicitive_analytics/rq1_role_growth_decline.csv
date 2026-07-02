@@ -1,0 +1,20 @@
+role_id,role_name,pathway,population_n,itr_yoy_posting_growth,itr_10yr_growth,trend
+23,ML Engineer,AI-Augmented Design & Engineering Pathway,10177,181.67,48.67,Growing
+26,Product Manager,Data Engineering & Analytics Pathway,1424,150.0,48.0,Growing
+13,Cybersecurity Analyst,Data Engineering & Analytics Pathway,969,138.33,49.33,Growing
+15,Data Engineer,Data Engineering & Analytics Pathway,7484,93.33,20.67,Growing
+16,Data Scientist,Data Science Pathway,10539,42.0,36.0,Growing
+11,Cloud/DevOps Engineer,AI-Augmented Design & Engineering Pathway,8499,5.75,0.0,Stable
+1,AI / ML Engineer,AI-Augmented Design & Engineering Pathway,162,-4.25,1.75,Stable
+4,AI Leadership,AI-Augmented Design & Engineering Pathway,27,-4.25,1.75,Stable
+2,AI Annotator,AI-Augmented Design & Engineering Pathway,44,-4.25,1.75,Stable
+12,Cloud/MLOps Engineer,Software Engineering Pathway,28,-4.25,1.75,Stable
+7,AI/Data Intern,AI-Augmented Design & Engineering Pathway,33,-4.25,1.75,Stable
+24,Marketing Specialist,AI-Augmented Design & Engineering Pathway,465,-4.25,1.75,Stable
+5,AI Research Scientist,AI-Augmented Design & Engineering Pathway,25,-4.25,1.75,Stable
+20,Gen AI Data Engineer,AI-Augmented Design & Engineering Pathway,20,-4.25,1.75,Stable
+28,Senior Data Scientist,AI-Augmented Design & Engineering Pathway,25,-4.25,1.75,Stable
+31,Student,AI-Augmented Design & Engineering Pathway,12743,-4.25,1.75,Stable
+29,Software Engineer,Software Engineering Pathway,254080,-4.25,1.75,Stable
+14,Data Analyst,Data Engineering & Analytics Pathway,5810,-6.5,-9.0,Declining
+32,UX Designer,AI-Augmented Design & Engineering Pathway,45190,-16.0,-18.5,Declining
